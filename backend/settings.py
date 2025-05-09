@@ -41,11 +41,11 @@ class _UiSettings(BaseSettings):
         env_ignore_empty=True
     )
 
-    title: str = "Parkhill | Bentley AI Assistant"
+    title: str = "Parkhill | AutoCAD & Civil 3D AI Assistant"
     logo: Optional[str] = None
     chat_logo: Optional[str] = None
     chat_title: str = "Ask me anything..."
-    chat_description: str = "I'm here to answer your questions on our Bentley products"
+    chat_description: str = "I'm here to answer your AutoCAD and Civil 3D questions. Just ask!"
     favicon: str = "/favicon.ico"
     show_share_button: bool = True
     show_chat_history_button: bool = True
